@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ad66a10d5d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "keywords" content = "nouse, no.use, no use, barcode, never thought, about, about me, tour, merch, merchandise, music, music video, rap, lyrics, Liam Reilly, text, meta data" /> 
+    <meta name = "description" content = "This is no.use's website. You can listen to music, watch videos, check tour dates, and buy merchandise on this site." />
+    <meta name = "author" content = "Liam Reilly" />
+    <title>no.use</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#listen-now">Listen Now</a>
+            <a href="#about">About</a>
+            <a href="#email-form">Subscribe</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>no.use</h1>
+        <section id="listen-now">
+            <h2>Barcode</h2>
+            <h3>A no.use EP</h3>
+            <img src="./barcode_album_cover.jpg">
+            <a href="https://fanlink.to/barcode" target="_blank">Listen Now</a>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Liam Reilly, better known by his stage name "no.use", is a rap/alt-pop/emo artist from Santa Cruz, California. 
+                Born in 1998, the 23 year old rapper and producer grew up in a relatively sleepy town. 
+                Despite this, his sound is intense and hard-hitting, imploring you to mind the complexity of his lyrics. 
+                His message is cerebral and heartfelt, addressing the hardest parts of life, 
+                but this doesn’t come without a bold sense of humor and irony that fuels his music. 
+                He draws inspiration from the likes of Eminem, Blackbear, Mac Miller, and Eden, 
+                and you can hear their influence in his songs. 
+                However, his sound is always evolving and drawing inspiration from different sources as time goes on. 
+                No.use's music is deeply personal and he discusses topics such as mental health, addiction, 
+                and heartbreak in many of his songs, drawing inspiration from his own life experiences. 
+                However, no.use has something for everyone and his music demands your ears. 
+                He wants to share his journey in life, and invites you along for the ride. 
+                You can listen to his 2019 album "Barcode" on all streaming platforms. 
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="social-links">
+            <a class="social-icon" href="https://twitter.com/no_use_music" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://www.facebook.com/no.use6" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://www.instagram.com/no.use.music" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://soundcloud.com/no-use-music" target="_blank">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://www.youtube.com/channel/UCfVNzkE_G_cIICBKO4j1c2g" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://music.apple.com/us/artist/no-use/1438159800" target="_blank">
+                <ion-icon name="logo-apple"></ion-icon>
+                </a>
+            <a class="social-icon" href="https://open.spotify.com/artist/0M3NpGW0S7o4ZEuY3JXSLN?si=py_PzAcXQf2XgVoaeIGbPg" target="_blank">
+                <i class="fa-brands fa-spotify"></i>
+                </a>
+        </section>
+
+        <form action="emaildata.txt" method="POST" id="email-form">
+            <!--The form data is not showing up in my emaildata.txt and i don't think I can do it without js or php-->
+            <!--might have to separate these with br tags or in css by giving them each an id then checking display and positioning-->
+                <input type="text" name="user-email" placeholder="Email Address (Required)" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid Email Address" required>
+                <input type="text" name="user-country" placeholder="Country">
+                <input type="text" name="user-zipcode" placeholder="Zipcode">
+                <input type="submit" value="Subscribe">
+        </form>
+
+        <a id="contact" href="mailto:management@nousemusic.com">Contact</a>
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
